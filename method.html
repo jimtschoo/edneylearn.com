@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The AI-Augmented Workflow Design Method | Edney Learn</title>
+<meta name="description" content="A ten-stage method for designing or redesigning a professional workflow that integrates human expertise, AI, tools, standards, evidence and quality controls. Run once per workflow, not once per task.">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<style>
+  .method-map { background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 22px; }
+  .method-map svg { width: 100%; height: auto; }
+  .map-scroll { overflow-x: auto; }
+  .map-scroll > svg { min-width: 780px; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div data-chrome="header"></div>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <p class="crumbs"><a href="index.html">Home</a><span>/</span><a href="ai-capability.html">AI Capability</a><span>/</span>The Method</p>
+      <p class="eyebrow">Methodology</p>
+      <h1>Design one professional workflow you can run again and again.</h1>
+      <p class="lede">One documented, repeatable, evidence-generating workflow you own, complete with standards, review points and a clear record of who decided what. The AI-Augmented Workflow Design Method is how you build it: ten stages, run <strong>once</strong> to design the workflow, after which you operate the workflow the method produced.</p>
+      <div class="callout mt-3">
+        <h4>Read this before anything else</h4>
+        <p>This is a method for <strong>designing or redesigning a workflow</strong>. It is not a checklist you run from Stage 1 to Stage 10 every time you do a piece of work. You run it once to build the workflow. Then you operate the workflow it produced.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE MAP (Spec §13) ================= -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Figure 1</p>
+        <h2>The Workflow Design Method Map</h2>
+        <p class="lede">The relationship between designing a workflow, operating it, and improving it. Most confusion about AI methodology comes from collapsing these three into one activity.</p>
+      </div>
+
+      <div class="method-map">
+        <div class="map-scroll">
+        <svg viewBox="0 0 1100 600" role="img" aria-labelledby="map-title map-desc" xmlns="http://www.w3.org/2000/svg">
+          <title id="map-title">Workflow Design Method Map</title>
+          <desc id="map-desc">The ten canonical stages — Define, Recover, Map, Allocate, Engineer, Govern, Test, Validate, Document, Optimise — run once to produce an operating workflow. Stages 1 to 9 design and document the workflow; Stage 10 improves it using evidence gathered during operation. Escalation is not a separate stage: its rules are designed within Engineer and its ownership and evidence are governed within Govern. ARCHITECT, the knowledge recovery and codification standard, enters primarily within Recover. The operating workflow is then run repeatedly, which collects evidence, which feeds optimisation, which loops back into redesign. The method is applied in three contexts: internal operations, product generation, and client field work.</desc>
+
+          <style>
+            .mm-label { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; fill: var(--gold); }
+            .mm-stage-n { font-family: var(--mono); font-size: 10px; fill: var(--accent); letter-spacing: .05em; }
+            .mm-stage-t { font-family: var(--sans); font-size: 10.5px; fill: var(--ink-soft); }
+            .mm-box-t { font-family: var(--serif); font-size: 16px; fill: var(--ink); font-weight: 600; }
+            .mm-box-s { font-family: var(--sans); font-size: 11.5px; fill: var(--ink-soft); }
+            .mm-cyc-t { font-family: var(--sans); font-size: 13px; font-weight: 650; fill: var(--ink); }
+            .mm-note  { font-family: var(--sans); font-size: 11px; fill: var(--ink-mute); }
+            .mm-loop  { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; fill: var(--ink-mute); text-transform: uppercase; }
+          </style>
+
+          <defs>
+            <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B968F"/>
+            </marker>
+          </defs>
+
+          <!-- ---------- Band 1: the ten-stage method ---------- -->
+          <text x="50" y="26" class="mm-label">1 · Design the workflow — run once</text>
+
+          <!-- stage boxes — canonical ten -->
+          <g>
+            <rect x="50"  y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="60" y="58" class="mm-stage-n">01</text>
+            <text x="60" y="76" class="mm-stage-t">Define</text><text x="60" y="89" class="mm-stage-t">target output</text>
+
+            <rect x="150" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="160" y="58" class="mm-stage-n">02</text>
+            <text x="160" y="76" class="mm-stage-t">Recover</text><text x="160" y="89" class="mm-stage-t">knowledge</text>
+
+            <rect x="250" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="260" y="58" class="mm-stage-n">03</text>
+            <text x="260" y="76" class="mm-stage-t">Map current</text><text x="260" y="89" class="mm-stage-t">workflow</text>
+
+            <rect x="350" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="360" y="58" class="mm-stage-n">04</text>
+            <text x="360" y="76" class="mm-stage-t">Allocate</text><text x="360" y="89" class="mm-stage-t">human &amp; AI</text>
+
+            <rect x="450" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="460" y="58" class="mm-stage-n">05</text>
+            <text x="460" y="76" class="mm-stage-t">Engineer the</text><text x="460" y="89" class="mm-stage-t">workflow</text>
+
+            <rect x="550" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="560" y="58" class="mm-stage-n">06</text>
+            <text x="560" y="76" class="mm-stage-t">Govern</text><text x="560" y="89" class="mm-stage-t">standards, gates</text>
+
+            <rect x="650" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="660" y="58" class="mm-stage-n">07</text>
+            <text x="660" y="76" class="mm-stage-t">Test on</text><text x="660" y="89" class="mm-stage-t">real work</text>
+
+            <rect x="750" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="760" y="58" class="mm-stage-n">08</text>
+            <text x="760" y="76" class="mm-stage-t">Validate</text><text x="760" y="89" class="mm-stage-t">the output</text>
+
+            <rect x="850" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--rule)"/>
+            <text x="860" y="58" class="mm-stage-n">09</text>
+            <text x="860" y="76" class="mm-stage-t">Document</text><text x="860" y="89" class="mm-stage-t">the system</text>
+
+            <rect x="950" y="40" width="92" height="62" rx="3" fill="#fff" stroke="var(--accent)" stroke-width="1.3"/>
+            <text x="960" y="58" class="mm-stage-n">10</text>
+            <text x="960" y="76" class="mm-stage-t">Optimise</text><text x="960" y="89" class="mm-stage-t">with evidence</text>
+          </g>
+
+          <!-- ARCHITECT enters at Recover -->
+          <line x1="196" y1="102" x2="196" y2="116" stroke="var(--gold)" stroke-width="1"/>
+          <text x="150" y="130" class="mm-note" fill="var(--gold)">ARCHITECT enters here</text>
+
+          <!-- escalation is a control across Engineer + Govern, not a stage -->
+          <path d="M 450 118 V 112 H 642 V 118" fill="none" stroke="var(--stop)" stroke-width="1"/>
+          <text x="450" y="146" class="mm-note" fill="var(--stop)">Escalation is designed in Engineer and owned in Govern: a control, not a stage.</text>
+
+          <!-- Stages 1–9 design; Stage 10 improves — moved to y=130 to avoid overlapping the escalation annotation -->
+          <text x="650" y="130" class="mm-note">Stages 1–9 design the workflow · Stage 10 improves it from operating evidence.</text>
+
+          <!-- down arrow into the operating workflow -->
+          <line x1="546" y1="154" x2="546" y2="168" stroke="#8B968F" stroke-width="1.4" marker-end="url(#arw)"/>
+
+          <!-- ---------- Band 2: the operating workflow ---------- -->
+          <rect x="300" y="172" width="500" height="72" rx="4" fill="var(--accent-tint)" stroke="var(--accent)"/>
+          <text x="326" y="203" class="mm-box-t">The operating workflow</text>
+          <text x="326" y="224" class="mm-box-s">A documented procedure you own, adapt and keep. This is the asset.</text>
+
+          <line x1="546" y1="244" x2="546" y2="278" stroke="#8B968F" stroke-width="1.4" marker-end="url(#arw)"/>
+
+          <!-- ---------- Band 3: the operating cycle ---------- -->
+          <text x="120" y="302" class="mm-label">2 · Operate, evidence, optimise — repeatedly</text>
+
+          <rect x="120" y="316" width="230" height="86" rx="4" fill="#fff" stroke="var(--rule)"/>
+          <text x="142" y="346" class="mm-cyc-t">Operate the workflow</text>
+          <text x="142" y="367" class="mm-box-s">Normal professional work, run</text>
+          <text x="142" y="382" class="mm-box-s">through the designed process.</text>
+
+          <line x1="356" y1="359" x2="394" y2="359" stroke="#8B968F" stroke-width="1.4" marker-end="url(#arw)"/>
+
+          <rect x="400" y="316" width="230" height="86" rx="4" fill="#fff" stroke="var(--rule)"/>
+          <text x="422" y="346" class="mm-cyc-t">Collect evidence</text>
+          <text x="422" y="367" class="mm-box-s">Judgment applied, AI contribution,</text>
+          <text x="422" y="382" class="mm-box-s">validation, output quality.</text>
+
+          <line x1="636" y1="359" x2="674" y2="359" stroke="#8B968F" stroke-width="1.4" marker-end="url(#arw)"/>
+
+          <rect x="680" y="316" width="230" height="86" rx="4" fill="#fff" stroke="var(--rule)"/>
+          <text x="702" y="346" class="mm-cyc-t">Optimise</text>
+          <text x="702" y="367" class="mm-box-s">Improve the workflow because it</text>
+          <text x="702" y="382" class="mm-box-s">was measured, not because it felt off.</text>
+
+          <!-- loop back into redesign -->
+          <path d="M 910 359 H 1062 V 118" fill="none" stroke="#8B968F" stroke-width="1.4" stroke-dasharray="4 4" marker-end="url(#arw)"/>
+          <text x="1052" y="250" class="mm-loop" transform="rotate(-90 1052 250)">Redesign cycle</text>
+
+          <!-- ---------- Band 4: application contexts ---------- -->
+          <text x="120" y="452" class="mm-label">3 · Three application contexts — different ownership, different evidence</text>
+
+          <rect x="120" y="466" width="253" height="98" rx="4" fill="var(--paper-alt)" stroke="var(--rule)"/>
+          <text x="142" y="494" class="mm-cyc-t">Internal operations</text>
+          <text x="142" y="516" class="mm-box-s">We design our own SOPs with it.</text>
+          <text x="142" y="540" class="mm-note">Evidence: method evidence only.</text>
+          <text x="142" y="554" class="mm-note">Cannot support client claims.</text>
+
+          <rect x="393" y="466" width="253" height="98" rx="4" fill="var(--paper-alt)" stroke="var(--rule)"/>
+          <text x="415" y="494" class="mm-cyc-t">Product generation</text>
+          <text x="415" y="516" class="mm-box-s">We build reference workflows with it.</text>
+          <text x="415" y="540" class="mm-note">Evidence: product evidence only.</text>
+          <text x="415" y="554" class="mm-note">Cannot support client claims.</text>
+
+          <rect x="666" y="466" width="253" height="98" rx="4" fill="#fff" stroke="var(--accent)" stroke-width="1.5"/>
+          <text x="688" y="494" class="mm-cyc-t">Client field work</text>
+          <text x="688" y="516" class="mm-box-s">A customer builds their own workflow.</text>
+          <text x="688" y="540" class="mm-note" fill="var(--accent)">Evidence: client field-work evidence.</text>
+          <text x="688" y="554" class="mm-note" fill="var(--accent)">The only class that supports outcome claims.</text>
+        </svg>
+        </div>
+      </div>
+      <p class="small mute mt-2">Figure 1 — Workflow Design Method Map. Scroll horizontally on narrow screens.</p>
+    </div>
+  </section>
+
+  <!-- ================= THE TEN STAGES ================= -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The design method</p>
+        <h2>Ten stages, run once per workflow.</h2>
+        <p class="lede"><strong>In four moves:</strong> Define the result → design the work → test it on something real → document and improve it. The ten stages below are how each move is done properly.</p>
+      </div>
+
+      <div class="table-scroll">
+        <table class="data">
+          <caption>The ten-stage AI-Augmented Workflow Design Method</caption>
+          <thead><tr><th style="width:26%">Stage</th><th>What happens</th></tr></thead>
+          <tbody>
+            <tr><td>01 · Define</td><td>Clarify the professional output, who it is for, the standard it must meet and the condition that counts as success. Most failed AI work fails here.</td></tr>
+            <tr><td>02 · Recover</td><td>Collect your knowledge, evidence, source materials, examples and constraints. Where knowledge is tacit or fragmented, this stage invokes <a href="architect.html">ARCHITECT</a>, the knowledge recovery and codification standard. This is the stage that turns a generic workflow into yours.</td></tr>
+            <tr><td>03 · Map</td><td>Document the current workflow, decisions, handoffs, delays, dependencies, failure modes and tools. You cannot redesign a process you have not described.</td></tr>
+            <tr><td>04 · Allocate</td><td>Assign work and authority among the human, AI, deterministic tools, external specialists and independent reviewers. Deliberate allocation, not default.</td></tr>
+            <tr><td>05 · Engineer</td><td>Construct the future workflow: sequence, inputs, outputs, templates, prompts, file structure, version control <strong>and the escalation rules</strong>: the conditions under which work stops and returns to a named person. See below.</td></tr>
+            <tr><td>06 · Govern</td><td>Translate professional standards into rubrics, acceptance criteria, evidence requirements and quality gates, and assign <strong>escalation ownership</strong>: who receives returned work, what evidence accompanies it, and who authorises resumption.</td></tr>
+            <tr><td>07 · Test</td><td>Run the designed workflow against a real project or a representative work sample, and capture failures, exceptions and support needs. Not a toy example.</td></tr>
+            <tr><td>08 · Validate</td><td>Determine whether the workflow and its outputs meet their declared criteria — accuracy, originality, professional readiness — within the approved evidence meaning.</td></tr>
+            <tr><td>09 · Document</td><td>Produce the operating manual, prompt pack, templates, SOPs, responsibility records, decision log and reuse instructions. You now have the asset.</td></tr>
+            <tr><td>10 · Optimise</td><td>Improve the workflow's design using evidence gathered during operation — performance data, reflection, feedback and new tool capabilities — without silently changing its governed version.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ESCALATION ================= -->
+  <section class="section" id="escalation">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--mute" style="color:var(--stop);">A control inside Engineer and Govern</p>
+        <h2>A workflow that cannot stop itself is not a professional workflow.</h2>
+        <p class="lede">Escalation is not a separate stage. Its rules are <strong>designed within Engineer</strong> (Stage 5) and its ownership and evidence are <strong>governed within Govern</strong> (Stage 6). Designing the stop conditions is as much of the work as designing the steps, and it is the part generic prompting has no concept of, because a model has no way of knowing what it would be professionally negligent to guess at.</p>
+      </div>
+
+      <p style="color:var(--ink-soft);">Three questions a professional workflow must answer — <strong>When does it stop? Who receives the decision? What evidence travels with it?</strong> The stop conditions we design in:</p>
+
+      <div class="callout callout--escalate">
+        <ul style="margin:0; padding-left:1.1em; line-height:1.6; color:var(--ink-soft);">
+          <li style="margin-bottom:10px;"><strong>Insufficient inputs</strong> — pauses and requests the missing evidence; does not fill the gap with plausible text.</li>
+          <li style="margin-bottom:10px;"><strong>Accountable human judgment</strong> — strategy, ethics, credibility and final acceptance stay with a responsible person.</li>
+          <li style="margin-bottom:10px;"><strong>Confidential or client-owned material</strong> — treated as a design constraint, not remembered later.</li>
+          <li style="margin-bottom:10px;"><strong>Rights and licensing</strong> — attribution, permissions and third-party assets reviewed before use.</li>
+          <li style="margin-bottom:10px;"><strong>Capability or performance claims</strong>: no evidence, no claim.</li>
+          <li style="margin-bottom:10px;"><strong>Specialist or regulated matters</strong> — legal, medical, financial and compliance escalate to a qualified professional.</li>
+          <li><strong>Output quality failure</strong> — output that fails the standard goes back through revision or external review; AI output is never final by default.</li>
+        </ul>
+      </div>
+
+      <div class="callout callout--quiet mt-3">
+        <p style="margin:0;"><strong>Why these appear on every product page:</strong> a system that only describes what it can do is marketing. One that describes where it stops is a method.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= APPLICATION CONTEXTS ================= -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Application contexts</p>
+        <h2>The same method, three very different evidence positions.</h2>
+        <p class="lede">We use this method three ways — on our own operations, to build products, and with customers — and those prove very different things. The full breakdown of what each context can and cannot support is on the <a href="evidence.html">evidence policy →</a></p>
+      </div>
+
+      <div class="callout callout--boundary">
+        <h4>Ownership, stated plainly</h4>
+        <p>A workflow you build in one of our programmes is yours. Your source materials, your knowledge and your resulting operating system remain under your control. If we ever want to use any of it as a product example or case study, we ask first, in writing, and we anonymise unless you tell us otherwise. <a href="terms.html">Full terms →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white section--ruled">
+    <div class="wrap center">
+      <p class="eyebrow">Apply the method</p>
+      <h2 style="margin-left:auto; margin-right:auto;">The method is standardised. The workflow is yours.</h2>
+      <p class="lede">Choose the route that matches how much support you want: self-study, built with us live, or coached through the difficult decisions.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn--primary" href="benchmark.html#register">Register for the Benchmark</a>
+        <a class="btn btn--ghost" href="programmes.html">See programmes</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div data-chrome="footer"></div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
