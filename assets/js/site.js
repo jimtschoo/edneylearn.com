@@ -13,7 +13,7 @@
   var HEADER =
   '<header class="site-header">' +
     '<div class="header-inner">' +
-      '<a class="brand" href="index.html">Edney <em>Learn</em></a>' +
+      '<a class="brand" href="index.html"><img class="brand-logo" src="assets/favicon.png" alt="" width="34" height="34">Edney <em>Learn</em></a>' +
       '<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>' +
       '<nav class="nav" id="primary-nav" aria-label="Primary">' +
         '<ul>' +
