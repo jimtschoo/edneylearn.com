@@ -616,6 +616,18 @@ table.data tbody tr:last-child td { border-bottom: 1px solid var(--rule); }
 }
 .footer-bar ul { display: flex; flex-wrap: wrap; gap: 18px; list-style: none; margin: 0; padding: 0; }
 
+/* Footer responsive collapse. Without this the grid's
+   `repeat(auto-fit, minmax(155px, 1fr))` tracks do not fit narrow viewports,
+   so the columns squeeze and overlap. Stack to two columns, then one. */
+@media (max-width: 860px) {
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 28px; }
+  .footer-note { max-width: none; }
+}
+@media (max-width: 640px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 26px; }
+  .footer-bar { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
+
 /* --------------------------------------------------------------------------
    17. Utilities
    -------------------------------------------------------------------------- */
